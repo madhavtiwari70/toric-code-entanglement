@@ -1,6 +1,7 @@
 // ParaToric - Continuous-time QMC for the extended toric code in the x/z-basis
 // Copyright (C) 2022-2025  Simon Mathias Linsel, Lode Pollet
 
+#include <print>
 #include "lattice/lattice.hpp"
 
 #include <boost/graph/adjacency_list.hpp>

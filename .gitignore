@@ -93,3 +93,22 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+# --- added for cloud/cluster workflow ---
+logs/
+out_Tsweep/
+scratch_runs/
+jobs/*.err
+jobs/*.out
+*.err
+*.out
+build.log
+nano.save
+Miniconda3-latest-Linux-x86_64.sh
+results/**/*.pdf
+__pycache__/
+
+# ignore simulation data/output, keep only analysis notebooks
+results/**/*.h5
+results/**/*.pdf
+results/**/parameters.txt
+results/**/data/
